@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <section class="container">
+        <div class="logo">
+            <img src="images/logo.png" class="img"/>
+        </div>
+        <h1 id="heading" class="heading"> TO Do List</h1>
+
+        <form class="new-task-container box">
+            <label for="new-task">Add New Task</label>
+            <input type="text" id="new-task" />
+            <input type="submit" id="addTask" value="Add Task" class="btn"/>
+        </form>
+    
+        <div class="todo-list box">
+            <h2>Incomplete Task</h2>
+
+            <ul id="items">
+                <li class="item">
+                    <input type="checkbox"/><label>Task Name</label>
+                </li>
+
+                <li class="item">
+                    <input type="checkbox"/><label>Task Name</label>
+                </li>
+
+                <li class="item">
+                    <input type="checkbox"/><label>Task Name</label>
+                </li>
+
+                <li class="item">
+                    <input type="checkbox"/><label>Task Name</label>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <div class="complete-list box">
+            <h2>Complete Task</h2>
+            <ul>
+                <li>Task Name <button class="delete">Delete</button></li> 
+            </ul>
+        </div>
+
+
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
